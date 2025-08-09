@@ -22,8 +22,8 @@
     .facilities{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}
     .facility{background:linear-gradient(180deg,rgba(11,110,253,0.04),transparent);padding:12px;border-radius:10px}
     ul{margin:0;padding-left:18px}
-    .signature{display:flex;gap:12px;align-items:center;margin-top:18px}
-    .sig-block{font-style:normal}
+    .signature{display:flex;justify-content:center;margin-top:10px}
+    .sig-block{text-align:center;font-style:normal}
     .btn{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
     footer{margin-top:20px;color:var(--muted);font-size:14px}
     @media (max-width:760px){.hero{flex-direction:column}.hero .right{width:100%}}
@@ -45,6 +45,16 @@
         <article class="card">
           <h2 id="welcome-title">A message from the Principal — Enthusiastic & Proud</h2>
           <img src="https://www.svhec.com/wp-content/uploads/2024/09/Principal-new-scaled.jpg" alt="Principal Dr. P. Thangavel" class="principal-img">
+
+          <!-- Signature moved directly below image -->
+          <div class="signature">
+            <div class="sig-block">
+              <div><strong>Dr. P. Thangavel, ME, MBA, PhD</strong></div>
+              <div>Principal</div>
+              <div style="font-size:12px;color:var(--muted)">Gobi — Since 2008</div>
+            </div>
+          </div>
+
           <p>
             I am <strong>extremely happy</strong> to welcome you to Shree Venkateshwara Hi-Tech Engineering College, Gobi. Started in <strong>2008-09</strong> with an objective to provide quality education and excellence in the ever-changing field of technical education. Technology is moving at a very fast pace — and we move with it.
           </p>
@@ -60,14 +70,6 @@
           <p>
             Every year students from different classes secure places in the university merit lists. Many students are selected in various competitive examinations and thus add glory to the college. Success cannot be achieved without a peaceful atmosphere — we enjoy complete harmony between students, teachers, the principal and the management. All teaching and non-teaching staff contribute their bit in upgrading the college environment.
           </p>
-
-          <div class="signature">
-            <div class="sig-block">
-              <div><strong>Dr. P. Thangavel, ME, MBA, PhD</strong></div>
-              <div>Principal</div>
-            </div>
-            <div style="margin-left:auto;text-align:right;font-size:12px;color:var(--muted)">Gobi — Since 2008</div>
-          </div>
         </article>
       </div>    
 
@@ -131,4 +133,3 @@
   </script>
 </body>
 </html>
-
